@@ -25,5 +25,5 @@ Right now this is the only script available other than a boilerplate test script
 # Technologies
 
 The app is built with Electron and React (as of this writing React hasn't been
-installed yet. For the backend I was thinking of going a node based GraphQL
+installed yet). For the backend I was thinking of going a node based GraphQL
 service that uses a NoSQL DB to handle all saving of datas
