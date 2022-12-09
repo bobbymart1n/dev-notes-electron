@@ -1,0 +1,23 @@
+{
+  "name": "dev.notes",
+  "version": "1.0.0",
+  "description": "An app for taking notes during your day to day as a dev",
+  "main": "./dist/main.js",
+  "scripts": {
+		"dev": "NODE_ENV=development webpack --config webpack.electron.config.js --mode development && electron ." ,
+    "test": "npm run test"
+  },
+  "author": "Bobby Martin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "electron": "^22.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
